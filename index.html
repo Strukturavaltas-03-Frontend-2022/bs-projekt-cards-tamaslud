@@ -16,44 +16,116 @@
 <body>
     <header>
         <div class="container text-center col col-sm-10 col-md-8">
-            <h1 class="font-weight-light">Pricing</h1>
-            <h4 class="font-weight-light">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s
-                built with default Bootstrap components and utilities with little customization.</h4>
+            <div class="my-5">
+                <h1 class="display-4 font-weight-light">Pricing</h1>
+                <h4 class="font-weight-light">Quickly build an effective pricing table for your potential customers with
+                    this Bootstrap example. It’s
+                    built with default Bootstrap components and utilities with little customization.</h4>
+            </div>
 
         </div>
     </header>
     <main>
         <div class="container">
-            <div class="card-deck">
-                <div class="card col-10 col-md-4">
+            <div class="card-deck flex-column flex-md-row">
+
+                <div class="card mb-3 mb-md-0">
                     <div class="card-header text-center">
-                        Free
+                        <h3 class="font-weight-normal">
+                            Free
+                        </h3>
                     </div>
-                    <div class="card-body">
-                        <h5 class="card-title text-center">0$ / mo</h5>
+                    <div class="card-body text-center shadow-sm card-body d-flex flex-column">
+                        <h1 class="card-title">
+                            0$ <small class="text-muted font-weight-normal">/ mo</small>
+                        </h1>
                         <p class="card-text">
-                            <ul class="list-unstyled text-center">
-                                <li>
-                                    10 users included
-                                </li>
-                                <li>
-                                    2 GB of storage
-                                </li>
-                                <li>
-                                    Email support
-                                </li>
-                                <li>
-                                    Help center access
-                                </li>
-                            </ul>
+                        <ul class="list-unstyled">
+                            <li>
+                                10 users included
+                            </li>
+                            <li>
+                                2 GB of storage
+                            </li>
+                            <li>
+                                Email support
+                            </li>
+                            <li>
+                                Help center access
+                            </li>
+                        </ul>
                         </p>
-                        <footer class="justify-content-center">
-                            <a href="#" class="btn btn-primary">Sign up for free</a>
+                        <footer class="mt-auto">
+                            <a href="#" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</a>
+                        </footer>
+                    </div>
+                </div>
+
+
+                <div class="card mb-3 mb-md-0">
+                    <div class="card-header text-center">
+                        <h3 class="font-weight-normal">
+                            Pro
+                        </h3>
+                    </div>
+                    <div class="card-body text-center shadow-sm card-body d-flex flex-column">
+                        <h1 class="card-title">
+                            15$ <small class="text-muted font-weight-normal">/ mo</small>
+                        </h1>
+                        <p class="card-text">
+                        <ul class="list-unstyled">
+                            <li>
+                                20 users included
+                            </li>
+                            <li>
+                                10 GB of storage
+                            </li>
+                            <li>
+                                Priority email support
+                            </li>
+                            <li>
+                                Help center access
+                            </li>
+                        </ul>
+                        </p>
+                        <footer class="mt-auto">
+                            <a href="#" class="btn btn-lg btn-block btn-primary">Get started</a>
                         </footer>
 
                     </div>
                 </div>
-                
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h3 class="font-weight-normal">
+                            Enterprise
+                        </h3>
+                    </div>
+                    <div class="card-body text-center shadow-sm card-body d-flex flex-column">
+                        <h1 class="card-title">
+                            29$ <small class="text-muted font-weight-normal">/ mo</small>
+                        </h1>
+                        <p class="card-text">
+                        <ul class="list-unstyled">
+                            <li>
+                                30 users included
+                            </li>
+                            <li>
+                                15 GB of storage
+                            </li>
+                            <li>
+                                Phone and email support
+                            </li>
+                            <li>
+                                Help center access
+                            </li>
+                        </ul>
+                        </p>
+                        <footer class="mt-auto">
+                            <a href="#" class="btn btn-lg btn-block btn-primary">Contact us</a>
+                        </footer>
+                    </div>
+                </div>
+
             </div>
         </div>
     </main>
